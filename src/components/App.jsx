@@ -39,10 +39,10 @@ state = {
   onFilterContacts = () => {
     const { contacts, filter } = this.state;
     const normalizedFilter = filter.toLowerCase();
-    const filterContacts = contacts.filter(contact =>
+    
+    return contacts.filter(contact =>
       contact.name.toLowerCase().includes(normalizedFilter)
     );
-    return filterContacts;
   };
 
 deleteContact = contactId => {
