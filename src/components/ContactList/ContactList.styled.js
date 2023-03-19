@@ -7,7 +7,7 @@ export const List = styled.ul`
 `;
 export const Item = styled.li`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 `;
 export const Text = styled.p`
